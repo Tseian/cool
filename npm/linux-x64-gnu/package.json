@@ -1,6 +1,6 @@
 {
   "name": "@tseian/cool-linux-x64-gnu",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "os": [
     "linux"
   ],
@@ -11,8 +11,10 @@
   "files": [
     "cool.linux-x64-gnu.node"
   ],
+  "description": "napi-rs",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/Tseian/cool.git"
 }

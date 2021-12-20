@@ -1,6 +1,6 @@
 {
   "name": "@tseian/cool-win32-x64-msvc",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "os": [
     "win32"
   ],
@@ -11,8 +11,10 @@
   "files": [
     "cool.win32-x64-msvc.node"
   ],
+  "description": "napi-rs",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/Tseian/cool.git"
 }
