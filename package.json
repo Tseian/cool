@@ -19,7 +19,8 @@
     "build": "napi build --platform --release",
     "build:debug": "napi build --platform",
     "prepublishOnly": "napi prepublish -t npm",
-    "version": "napi version"
+    "version": "napi version",
+    "test": "echo 'have no test case'"
   },
   "repository": "https://github.com/Tseian/cool.git",
   "description": "napi-rs"
