@@ -1,3 +1,3 @@
-# `@tseian/cool-win32-x64-msvc`
+# `@iantse/cool-win32-x64-msvc`
 
-This is the **x86_64-pc-windows-msvc** binary for `@tseian/cool`
+This is the **x86_64-pc-windows-msvc** binary for `@iantse/cool`

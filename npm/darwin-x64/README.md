@@ -1,3 +1,3 @@
-# `@tseian/cool-darwin-x64`
+# `@iantse/cool-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `@tseian/cool`
+This is the **x86_64-apple-darwin** binary for `@iantse/cool`

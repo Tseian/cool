@@ -1,5 +1,5 @@
 {
-  "name": "@tseian/cool-win32-x64-msvc",
+  "name": "@iantse/cool-win32-x64-msvc",
   "version": "0.0.0",
   "os": [
     "win32"
