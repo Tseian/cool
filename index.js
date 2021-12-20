@@ -18,7 +18,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./cool.android-arm64.node')
       } else {
-        nativeBinding = require('cool-android-arm64')
+        nativeBinding = require('@tseian/cool-android-arm64')
       }
     } catch (e) {
       loadError = e
@@ -34,7 +34,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./cool.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('cool-win32-x64-msvc')
+            nativeBinding = require('@tseian/cool-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -48,7 +48,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./cool.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('cool-win32-ia32-msvc')
+            nativeBinding = require('@tseian/cool-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -62,7 +62,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./cool.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('cool-win32-arm64-msvc')
+            nativeBinding = require('@tseian/cool-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -80,7 +80,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./cool.darwin-x64.node')
           } else {
-            nativeBinding = require('cool-darwin-x64')
+            nativeBinding = require('@tseian/cool-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -94,7 +94,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./cool.darwin-arm64.node')
           } else {
-            nativeBinding = require('cool-darwin-arm64')
+            nativeBinding = require('@tseian/cool-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -113,7 +113,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./cool.freebsd-x64.node')
       } else {
-        nativeBinding = require('cool-freebsd-x64')
+        nativeBinding = require('@tseian/cool-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -131,7 +131,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./cool.linux-x64-musl.node')
             } else {
-              nativeBinding = require('cool-linux-x64-musl')
+              nativeBinding = require('@tseian/cool-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
@@ -144,7 +144,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./cool.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('cool-linux-x64-gnu')
+              nativeBinding = require('@tseian/cool-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -161,7 +161,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./cool.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('cool-linux-arm64-musl')
+              nativeBinding = require('@tseian/cool-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
@@ -174,7 +174,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./cool.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('cool-linux-arm64-gnu')
+              nativeBinding = require('@tseian/cool-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -189,7 +189,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./cool.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('cool-linux-arm-gnueabihf')
+            nativeBinding = require('@tseian/cool-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e
